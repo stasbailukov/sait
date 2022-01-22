@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+*{
+    margin: 0px;
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+}
+body{
+    background-color: rgb(41, 41, 41);   
+}
+.header{
+    background-color: rgb(255, 217, 0);    
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+    width: 100%;
+    outline-color:rgb(41, 41, 41);  
+    outline-width:5px;
+    outline-style: solid;
+    position: fixed;
+}
+nav{
+    width: 100%;
+}
+#navi{
+    width: 100%;
+    height: 100%;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+    align-items: center;
+}
+.topnav{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+.topnav:hover{
+    color:rgb(179, 149, 0);
+    transition: 0.3s;
+}
+li{
+    margin-right: 20px;
+}
+#ka{
+    height: 60px;
+}
+#logo {
+    height: 60px;
+    weight: 60px;
+    border-radius: 5px;
+}
+#sotr{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+p{
+    word-spacing: 0.25rem;
+    color: white;
+    margin: 20px;
+    margin-top: 5px;
+}
+h1{
+    word-spacing: 0.25rem;
+    line-height: 2rem; 
+    color: white;
+    margin: 20px;
+    margin-bottom: 0px;
+}
+#maintxt{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+}
+.sotrname{
+    background-color: rgb(59, 59, 59); 
+    border-radius: 10px;
+    height: 100px;
+    width: 300px;
+    margin-left: 20PX;
+}
+.sotrphoto{
+    height:150px;
+    border-radius: 100px;
+}
+.sotrfull{
+    display: flex;
+    align-items: center;
+    height:200px;
+    padding:1rem;
+    width: 40%;
+}
+.ph{
+    background-image: url(https://www.onlygfx.com/wp-content/uploads/2016/10/circle-doodle-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height:25rem;
+    width: 100%;
+}
+h2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color:rgb(255, 217, 0); 
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 1);
+    font-size: 200px;
+    height: 400px;
+    padding-top: 5rem;
+}
+footer{
+    background-color:rgb(59, 59, 59);
+    padding-bottom: 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+#contacts{
+    list-style: none;
+    margin-left: -30px;
+    line-height: 1.2rem;
+}
+.bottomli{
+    color:rgb(145, 145, 145); 
+    margin-left: 0.5rem;
+}
+#cts{
+    font-size: 2em;
+    color:rgb(145, 145, 145); 
+    margin-left: 0.5rem;
+}
+.bottomli:link{
+    
+}
+.bottomli:visited{
+    
+}
+.bottomli:active{
+    
+}
+.bottomli:hover{
+    color:rgb(255, 255, 255);
+    transition: 0.3s;
+}
